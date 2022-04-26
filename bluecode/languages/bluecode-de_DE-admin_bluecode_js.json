@@ -1,0 +1,19 @@
+{
+  "translation-revision-date": "+0000",
+  "domain": "bluecode",
+  "locale_data": {
+    "bluecode": {
+      "": {
+        "domain": "bluecode",
+        "plural-forms": "n != 1",
+        "lang": "de-DE"
+      },
+      "Authorize": [
+        "Autorisieren"
+      ],
+      "You need to fill in all fields and save the configuration before attempting the authorization.": [
+        "Bitte füllen Sie alle Felder aus und speichern die Einstellungen, bevor Sie die Autorisierung versuchen."
+      ]
+    }
+  }
+}
