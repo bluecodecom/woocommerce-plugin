@@ -42,12 +42,12 @@ class Bluecode extends WC_Payment_Gateway
 
   /** @var string[] API URLs for sandbox and live */
   protected $aURLs = array(
-    "test" => "https://merchant-api.bluecode.biz/v4/%s",
-    "prod" => "https://merchant-api.bluecode.com/v4/%s"
+    "test" => "https://merchant-api.spt-payments.biz/v4/%s",
+    "prod" => "https://merchant-api.spt-payments.com/v4/%s"
   );
   protected $aTokenURLs = array(
-    "test" => "https://merchant-api.bluecode.biz/oauth2/%s",
-    "prod" => "https://merchant-api.bluecode.com/oauth2/%s"
+    "test" => "https://merchant-api.spt-payments.biz/oauth2/%s",
+    "prod" => "https://merchant-api.spt-payments.com/oauth2/%s"
   );
   protected $aPortalURLs = array(
     "test" => "https://merchant-portal.bluecode.biz/%s",
