@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluecode\n"
 "POT-Creation-Date: 2022-04-22 14:48-0400\n"
-"PO-Revision-Date: 2022-11-25 21:50-0300\n"
+"PO-Revision-Date: 2022-11-25 21:48-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE@formal\n"
@@ -26,7 +26,7 @@ msgstr "Autorisieren"
 
 #: js/admin_functions.js:19
 msgid "You need to fill in all fields and save the configuration before attempting the authorization."
-msgstr "Bitte füllen Sie alle Felder aus und speichern die Einstellungen, bevor Sie die Autorisierung versuchen."
+msgstr "Bitte fülle alle Felder aus und speichere die Einstellungen, bevor du die Autorisierung versuchst."
 
 #: payments/Bluecode.php:89 payments/Bluecode.php:92 payments/Bluecode.php:302 payments/Bluecode.php:386
 msgid "Bluecode"
@@ -34,15 +34,15 @@ msgstr "Bluecode"
 
 #: payments/Bluecode.php:90
 msgid "<a href=\"https://bluecode.com/en/b2b/merchants/\" target=\"_blank\">Get started with Bluecode</a>."
-msgstr "<a href=\"https://bluecode.com/de-at/b2b/haendler/\" target=\"_blank\">Lernen Sie Bluecode kennen</a>."
+msgstr "<a href=\"https://bluecode.com/de-at/b2b/haendler/\" target=\"_blank\">Lerne Bluecode kennen</a>."
 
 #: payments/Bluecode.php:107
 msgid ""
 "Are you using Bluecode for the first time? Download the free app and benefit from the digital <a href=\"https://bluecode.com/en/b2c/rewards/\">customer "
 "programs</a>."
 msgstr ""
-"Verwenden Sie Bluecode zum ersten Mal? Holen Sie sich einfach die kostenlose App und profitieren Sie von den digitalen <a href=\"https://bluecode.com/"
-"de-at/b2c/rewards/\">Kundenprogrammen</a>."
+"Verwendest du Bluecode zum ersten Mal? Hol dir einfach die kostenlose App und profitiere von den digitalen <a href=\"https://bluecode.com/de-at/b2c/"
+"rewards/\">Kundenprogrammen</a>."
 
 #: payments/Bluecode.php:277
 msgid "Set-up configuration"
@@ -62,7 +62,7 @@ msgstr "Sandbox-Modus"
 
 #: payments/Bluecode.php:289
 msgid "Enable Bluecode sandbox mode for testing"
-msgstr "Aktivieren SIe den Bluecode Sandbox-Modus für die Testphase"
+msgstr "Aktiviere den Bluecode Sandbox-Modus für die Testphase"
 
 #: payments/Bluecode.php:293
 msgid "Use in mini-app only"
@@ -78,7 +78,7 @@ msgstr "Titel"
 
 #: payments/Bluecode.php:301
 msgid "Bluecode works like cash — just on your smartphone ."
-msgstr "Bluecode funktioniert wie Bargeld – nur auf Ihrem Smartphone."
+msgstr "Bluecode funktioniert wie Bargeld – nur auf deinem Smartphone."
 
 #: payments/Bluecode.php:306
 msgid "Branch"
@@ -86,7 +86,7 @@ msgstr "Branch"
 
 #: payments/Bluecode.php:308
 msgid "Branch as provided by Bluecode"
-msgstr "Den Branch-Wert erhalten Sie von Bluecode"
+msgstr "Den Branch-Wert erhältst du von Bluecode"
 
 #: payments/Bluecode.php:313
 msgid "Slip text"
@@ -106,7 +106,7 @@ msgstr "API Client-ID"
 
 #: payments/Bluecode.php:322 payments/Bluecode.php:329
 msgid "Get this information during your Bluecode onboarding."
-msgstr "Sie erhalten diese Informationen während des Onboardings bei Bluecode."
+msgstr "Du erhältst diese Informationen während des Onboardings bei Bluecode."
 
 #: payments/Bluecode.php:327
 msgid "Client Secret"
@@ -122,7 +122,7 @@ msgstr "Neu-Autorisierung per Klick"
 
 #: payments/Bluecode.php:351
 msgid "Click here and then enter your merchant credentials to authorize this shop for Bluecode API access."
-msgstr "Klicken Sie hier und geben dann die genannten Bluecode-Daten an, um Ihren Shop für Bluecode zu autorisieren."
+msgstr "Klicke hier und gib dann die genannten Bluecode-Daten an, um deinen Shop für Bluecode zu autorisieren."
 
 #: payments/Bluecode.php:387
 msgid "Bluecode payment options"
@@ -169,15 +169,15 @@ msgstr "Erstattung lieferte Fehler: %s"
 
 #: payments/Bluecode.php:744
 msgid "Order number already used, please create a new order"
-msgstr "Bestellnummer bereits verwendet, bitte legen Sie eine neue Bestellung an"
+msgstr "Bestellnummer bereits verwendet, bitte lege eine neue Bestellung an"
 
 #: payments/Bluecode.php:815
 msgid "Could not initialize payment, try again later"
-msgstr "Bezahlung  konnte nicht gestartet werden, versuchen Sie es später erneut"
+msgstr "Bezahlung  konnte nicht gestartet werden, versuche es später erneut"
 
 #: payments/Bluecode.php:827 payments/Bluecode.php:832
 msgid "Bluecode connection timed out, try again later."
-msgstr "Verbindung zu Bluecode konnte nicht hergestellt werden, versuchen Sie es später erneut."
+msgstr "Verbindung zu Bluecode konnte nicht hergestellt werden, versuche es später erneut."
 
 #: payments/Bluecode.php:975 payments/Bluecode.php:1088 payments/Bluecode.php:1135
 msgid "The plugin configuration data is incorrect"
@@ -185,7 +185,7 @@ msgstr "Die Einstellungen des Plugins sind fehlerhaft"
 
 #: payments/Bluecode.php:1043
 msgid "Thank you for your purchase!"
-msgstr "Danke für Ihren Kauf!"
+msgstr "Danke für deinen Kauf!"
 
 #: payments/Bluecode.php:1178
 msgid "No code obtained, authorization failed"
