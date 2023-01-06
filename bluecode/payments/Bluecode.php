@@ -104,7 +104,7 @@ class Bluecode extends WC_Payment_Gateway
 
     // Define user set variables
     $this->title = $this->get_option('title');
-    $this->description = __('Are you using Bluecode for the first time? Download the free app and benefit from the digital <a href="https://bluecode.com/en/b2c/rewards/">customer programs</a>.', 'bluecode');
+    $this->description = __('The mobile payment solution that rewards you for your loyalty. Download the free Bluecode app now and benefit from exclusive <a href="https://bluecode.com/en/b2c/rewards/">benefits</a>.', 'bluecode');
     $this->clientid = $this->get_option('client-id');
     $this->clientsecret = $this->get_option('client-secret');
     $this->branch = $this->get_option('branch');

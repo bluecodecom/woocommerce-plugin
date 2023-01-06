@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bluecode\n"
-"POT-Creation-Date: 2022-04-22 14:48-0400\n"
-"PO-Revision-Date: 2022-11-25 21:50-0300\n"
+"POT-Creation-Date: 2023-01-06 00:26-0300\n"
+"PO-Revision-Date: 2023-01-06 00:27-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE@formal\n"
@@ -10,13 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: Bluecode.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
@@ -28,7 +28,7 @@ msgstr "Autorisieren"
 msgid "You need to fill in all fields and save the configuration before attempting the authorization."
 msgstr "Bitte füllen Sie alle Felder aus und speichern die Einstellungen, bevor Sie die Autorisierung versuchen."
 
-#: payments/Bluecode.php:89 payments/Bluecode.php:92 payments/Bluecode.php:302 payments/Bluecode.php:386
+#: payments/Bluecode.php:89 payments/Bluecode.php:92 payments/Bluecode.php:301 payments/Bluecode.php:388
 msgid "Bluecode"
 msgstr "Bluecode"
 
@@ -38,204 +38,204 @@ msgstr "<a href=\"https://bluecode.com/de-at/b2b/haendler/\" target=\"_blank\">L
 
 #: payments/Bluecode.php:107
 msgid ""
-"Are you using Bluecode for the first time? Download the free app and benefit from the digital <a href=\"https://bluecode.com/en/b2c/rewards/\">customer "
-"programs</a>."
+"The mobile payment solution that rewards you for your loyalty. Download the free Bluecode app now and benefit from exclusive "
+"<a href=\"https://bluecode.com/en/b2c/rewards/\">benefits</a>."
 msgstr ""
-"Verwenden Sie Bluecode zum ersten Mal? Holen Sie sich einfach die kostenlose App und profitieren Sie von den digitalen <a href=\"https://bluecode.com/"
-"de-at/b2c/rewards/\">Kundenprogrammen</a>."
+"Die mobile Bezahllösung, die dich für deine Treue belohnt. Lade jetzt die kostenlose Bluecode App herunter und profitiere "
+"von exklusiven <a href=\"https://bluecode.com/de-at/b2c/rewards/\">Vorteilen</a>."
 
-#: payments/Bluecode.php:277
+#: payments/Bluecode.php:276
 msgid "Set-up configuration"
 msgstr "Einstellungen"
 
-#: payments/Bluecode.php:281
+#: payments/Bluecode.php:280
 msgid "Enable/Disable"
 msgstr "Aktivieren/Deaktivieren"
 
-#: payments/Bluecode.php:283
+#: payments/Bluecode.php:282
 msgid "Enable Bluecode"
 msgstr "Bluecode aktivieren"
 
-#: payments/Bluecode.php:287
+#: payments/Bluecode.php:286
 msgid "Sandbox mode"
 msgstr "Sandbox-Modus"
 
-#: payments/Bluecode.php:289
+#: payments/Bluecode.php:288
 msgid "Enable Bluecode sandbox mode for testing"
 msgstr "Aktivieren SIe den Bluecode Sandbox-Modus für die Testphase"
 
-#: payments/Bluecode.php:293
+#: payments/Bluecode.php:292
 msgid "Use in mini-app only"
 msgstr "Nur in Mini-App verwenden"
 
-#: payments/Bluecode.php:295
+#: payments/Bluecode.php:294
 msgid "Enable Bluecode only in mini-app mode, not in the regular web shop"
 msgstr "Bluecode nur aktivieren, wenn der Shop als Mini-App läuft, nicht im normalen Webshop"
 
-#: payments/Bluecode.php:299
+#: payments/Bluecode.php:298
 msgid "Title"
 msgstr "Titel"
 
-#: payments/Bluecode.php:301
+#: payments/Bluecode.php:300
 msgid "Bluecode works like cash — just on your smartphone ."
 msgstr "Bluecode funktioniert wie Bargeld – nur auf Ihrem Smartphone."
 
-#: payments/Bluecode.php:306
+#: payments/Bluecode.php:305
 msgid "Branch"
 msgstr "Branch"
 
-#: payments/Bluecode.php:308
+#: payments/Bluecode.php:307
 msgid "Branch as provided by Bluecode"
 msgstr "Den Branch-Wert erhalten Sie von Bluecode"
 
-#: payments/Bluecode.php:313
+#: payments/Bluecode.php:312
 msgid "Slip text"
 msgstr "Belegtext"
 
-#: payments/Bluecode.php:315
+#: payments/Bluecode.php:314
 msgid ""
-"Text to print on sales slip. Allowed placeholders:<br/><ol><li>[[ORDERID]]: Order number</li><li>[[CUSTOMERID]]: Customer identifier</"
-"li><li>[[SHOPNAME]]: Store name</li></ol>"
+"Text to print on sales slip. Allowed placeholders:<br/><ol><li>[[ORDERID]]: Order number</li><li>[[CUSTOMERID]]: Customer "
+"identifier</li><li>[[SHOPNAME]]: Store name</li></ol>"
 msgstr ""
-"Text, der auf dem Verkaufsbeleg gedruckt wird. Zugelassene Platzhalter:<br/><ol><li>[[ORDERID]]: Bestellnummer</li><li>[[CUSTOMERID]]: Kundennummer</"
-"li><li>[[SHOPNAME]]: Name Ihres Stores</li></ol>"
+"Text, der auf dem Verkaufsbeleg gedruckt wird. Zugelassene Platzhalter:<br/><ol><li>[[ORDERID]]: Bestellnummer</"
+"li><li>[[CUSTOMERID]]: Kundennummer</li><li>[[SHOPNAME]]: Name Ihres Stores</li></ol>"
 
-#: payments/Bluecode.php:320
+#: payments/Bluecode.php:319
 msgid "Client ID"
 msgstr "API Client-ID"
 
-#: payments/Bluecode.php:322 payments/Bluecode.php:329
+#: payments/Bluecode.php:321 payments/Bluecode.php:328
 msgid "Get this information during your Bluecode onboarding."
 msgstr "Sie erhalten diese Informationen während des Onboardings bei Bluecode."
 
-#: payments/Bluecode.php:327
+#: payments/Bluecode.php:326
 msgid "Client Secret"
 msgstr "API Client-Secret"
 
-#: payments/Bluecode.php:342
+#: payments/Bluecode.php:344
 msgid "Click to authorize"
 msgstr "Autorisierung per Klick"
 
-#: payments/Bluecode.php:345
+#: payments/Bluecode.php:347
 msgid "Click to re-authorize"
 msgstr "Neu-Autorisierung per Klick"
 
-#: payments/Bluecode.php:351
+#: payments/Bluecode.php:353
 msgid "Click here and then enter your merchant credentials to authorize this shop for Bluecode API access."
 msgstr "Klicken Sie hier und geben dann die genannten Bluecode-Daten an, um Ihren Shop für Bluecode zu autorisieren."
 
-#: payments/Bluecode.php:387
+#: payments/Bluecode.php:389
 msgid "Bluecode payment options"
 msgstr "Bezahleinstellungen für Bluecode"
 
-#: payments/Bluecode.php:425
+#: payments/Bluecode.php:427
 msgid "(new cust)"
 msgstr "(neuer Kd.)"
 
-#: payments/Bluecode.php:476
+#: payments/Bluecode.php:478
 msgid "Bluecode error: missing Client-ID"
 msgstr "Bluecode-Fehler: fehlende Client-ID"
 
-#: payments/Bluecode.php:480
+#: payments/Bluecode.php:482
 msgid "Bluecode error: missing Client Secret"
 msgstr "Bluecode-Fehler: fehlendes Client Secret"
 
-#: payments/Bluecode.php:484
+#: payments/Bluecode.php:486
 msgid "Bluecode error: missing branch"
 msgstr "Bluecode-Fehler: fehlende Branch"
 
-#: payments/Bluecode.php:488
+#: payments/Bluecode.php:490
 msgid "Bluecode error: missing purpose"
 msgstr "Bluecode-Fehler: fehlender Belegtext"
 
-#: payments/Bluecode.php:676
+#: payments/Bluecode.php:678
 #, php-format
 msgid "Refunded %s - Refund ID: %s - Reason: %s"
 msgstr "Erstattet %s - Refund ID: %s - Grund: %s"
 
-#: payments/Bluecode.php:679
+#: payments/Bluecode.php:681
 #, php-format
 msgid "Refunded %s -  Reason: %s"
 msgstr "Erstattet %s -  Grund: %s"
 
-#: payments/Bluecode.php:687
+#: payments/Bluecode.php:689
 msgid "Refund failed: Issuer does not support automatic refund"
 msgstr "Erstattung fehlgeschlagen: Bank unterstützt keine Erstattung"
 
-#: payments/Bluecode.php:693
+#: payments/Bluecode.php:695
 #, php-format
 msgid "Refund returned error: %s"
 msgstr "Erstattung lieferte Fehler: %s"
 
-#: payments/Bluecode.php:744
+#: payments/Bluecode.php:746
 msgid "Order number already used, please create a new order"
 msgstr "Bestellnummer bereits verwendet, bitte legen Sie eine neue Bestellung an"
 
-#: payments/Bluecode.php:815
+#: payments/Bluecode.php:817
 msgid "Could not initialize payment, try again later"
 msgstr "Bezahlung  konnte nicht gestartet werden, versuchen Sie es später erneut"
 
-#: payments/Bluecode.php:827 payments/Bluecode.php:832
+#: payments/Bluecode.php:829 payments/Bluecode.php:834
 msgid "Bluecode connection timed out, try again later."
 msgstr "Verbindung zu Bluecode konnte nicht hergestellt werden, versuchen Sie es später erneut."
 
-#: payments/Bluecode.php:975 payments/Bluecode.php:1088 payments/Bluecode.php:1135
+#: payments/Bluecode.php:977 payments/Bluecode.php:1090 payments/Bluecode.php:1137
 msgid "The plugin configuration data is incorrect"
 msgstr "Die Einstellungen des Plugins sind fehlerhaft"
 
-#: payments/Bluecode.php:1043
+#: payments/Bluecode.php:1045
 msgid "Thank you for your purchase!"
 msgstr "Danke für Ihren Kauf!"
 
-#: payments/Bluecode.php:1178
+#: payments/Bluecode.php:1180
 msgid "No code obtained, authorization failed"
 msgstr "Es wurde kein Code erhalten, die Autorisierung ist fehlgeschlagen"
 
-#: payments/Bluecode.php:1183
+#: payments/Bluecode.php:1185
 msgid "Token successfully retrieved, authorization succeeded"
 msgstr "Token erfolgreich abgeholt, die Autorisierung ist abgeschlossen"
 
-#: payments/Bluecode.php:1186
+#: payments/Bluecode.php:1188
 msgid "Token could not be retrieved, authorization failed"
 msgstr "Das Token konnte nicht ermittelt werden, die Autorisierung ist fehlgeschlagen"
 
-#: payments/Bluecode.php:1200
+#: payments/Bluecode.php:1202
 msgid "OAuth Confirmation"
 msgstr "OAuth-Bestätigung"
 
-#: payments/Bluecode.php:1202
+#: payments/Bluecode.php:1204
 msgid "Close window"
 msgstr "Fenster schließen"
 
-#: payments/Bluecode.php:1251 payments/Bluecode.php:1357
+#: payments/Bluecode.php:1266 payments/Bluecode.php:1372
 msgid "Order cancelled by customer"
 msgstr "Bestellung durch den Kunden storniert"
 
-#: payments/Bluecode.php:1253
+#: payments/Bluecode.php:1268
 msgid "Bluecode payment was cancelled by user"
 msgstr "Bluecode-Zahlung wurde vom Benutzer storniert"
 
-#: payments/Bluecode.php:1260
+#: payments/Bluecode.php:1275
 msgid "Bluecode payment failed"
 msgstr "Bluecode-Zahlung fehlgeschlagen"
 
-#: payments/Bluecode.php:1295
+#: payments/Bluecode.php:1310
 msgid "Order payment via Bluecode declined"
 msgstr "Bluecode-Bezahlung abgelehnt"
 
-#: payments/Bluecode.php:1301
+#: payments/Bluecode.php:1316
 msgid "Order payment via Bluecode cancelled"
 msgstr "Bluecode-Bezahlung abgebrochen"
 
-#: payments/Bluecode.php:1316
+#: payments/Bluecode.php:1331
 msgid "General failure"
 msgstr "Allgemeiner Fehler"
 
-#: payments/Bluecode.php:1319
+#: payments/Bluecode.php:1334
 msgid "Order payment via Bluecode failed"
 msgstr "Bluecode-Zahlung fehlgeschlagen"
 
-#: payments/Bluecode.php:1327
+#: payments/Bluecode.php:1342
 msgid "Order status is "
 msgstr "Belegstatus ist "
 
@@ -257,8 +257,8 @@ msgstr "http://bluecode.com"
 
 #~ msgid "Bluecode works like cash — just on your smartphone . Download the App now and do cashless payments at over 4500 partners. Fast. Secure. Simple."
 #~ msgstr ""
-#~ "Bluecode funktioniert wie Bargeld – nur auf Ihrem Smartphone. Laden Sie die App jetzt herunter und bezahlen Sie bargeldlos bei über 4500 Partnern. "
-#~ "Schnell. Sicher. Einfach."
+#~ "Bluecode funktioniert wie Bargeld – nur auf Ihrem Smartphone. Laden Sie die App jetzt herunter und bezahlen Sie "
+#~ "bargeldlos bei über 4500 Partnern. Schnell. Sicher. Einfach."
 
 #~ msgid "Merchant ID from GiroCockpit"
 #~ msgstr "Verkäufer-ID aus dem GiroCockpit"
@@ -286,7 +286,8 @@ msgstr "http://bluecode.com"
 #~ "{CUSTOMERNAME}: Kundenname\n"
 #~ "{CUSTOMERFIRSTNAME}: Kunde Vorname\n"
 #~ "{CUSTOMERLASTNAME}: Kunde Nachname\n"
-#~ "For example: If your purpose is \"Best. {ORDERID}, {SHOPNAME}\" then the submitted purpose must be \"Best. 55342, TestShop\"\n"
+#~ "For example: If your purpose is \"Best. {ORDERID}, {SHOPNAME}\" then the submitted purpose must be \"Best. 55342, "
+#~ "TestShop\"\n"
 #~ "The maximum length of the purpose is 27 characters."
 #~ msgstr ""
 #~ "Sie können in Ihrem Verwendungszweck die folgenden Platzhalter verwenden:\n"
@@ -296,7 +297,8 @@ msgstr "http://bluecode.com"
 #~ "{CUSTOMERNAME}: Kundenname\n"
 #~ "{CUSTOMERFIRSTNAME}: Kunde Vorname \n"
 #~ "{CUSTOMERLASTNAME}: Kunde Nachname\n"
-#~ "Beispiel: Wenn Ihr Verwendungszweck \"Best. 55342, TestShop\" lauten soll, dann müssen Sie folgendes angeben: \"Best. {ORDERID}, {SHOPNAME}\".\n"
+#~ "Beispiel: Wenn Ihr Verwendungszweck \"Best. 55342, TestShop\" lauten soll, dann müssen Sie folgendes angeben: \"Best. "
+#~ "{ORDERID}, {SHOPNAME}\".\n"
 #~ "Die maximale Länge beträgt 27 Zeichen."
 
 #~ msgid "Support alternative order numbers"
@@ -305,20 +307,24 @@ msgstr "http://bluecode.com"
 #~ msgid "GiroCheckout error: missing project passphrase"
 #~ msgstr "GiroCheckout-Fehler: Fehlendes Projektpasswort"
 
-#~ msgid "This order was already closed successfully and cannot be paid again . Please close your session in the shop and create a new order ."
+#~ msgid ""
+#~ "This order was already closed successfully and cannot be paid again . Please close your session in the shop and create a "
+#~ "new order ."
 #~ msgstr ""
-#~ "Diese Bestellung wurde bereits erfolgreich abgeschlossen und kann nicht erneut bezahlt werden. Bitte melden Sie sich ab und legen dann eine neue "
-#~ "Bestellung an."
+#~ "Diese Bestellung wurde bereits erfolgreich abgeschlossen und kann nicht erneut bezahlt werden. Bitte melden Sie sich ab "
+#~ "und legen dann eine neue Bestellung an."
 
 #~ msgid "credit card"
 #~ msgstr "Kreditkarte"
 
 #~ msgid ""
-#~ "On the following secure website, you are asked to enter your credit card data. If your credit card is enabled for 3D Secure (Verified by Visa or "
-#~ "MasterCard Secure Code), additional information will be passed for a security check at your bank."
+#~ "On the following secure website, you are asked to enter your credit card data. If your credit card is enabled for 3D "
+#~ "Secure (Verified by Visa or MasterCard Secure Code), additional information will be passed for a security check at your "
+#~ "bank."
 #~ msgstr ""
-#~ "Im nächsten Schritt werden Sie aufgefordert, Ihre Kreditkartendaten einzugeben. Wenn Ihre Kreditkarte für 3D-Secure (Verified by Visa bzw. "
-#~ "MasterCard SecureCode) freigeschaltet ist, werden Sie während des Bezahlprozesses zur Sicherheitsabfrage Ihrer Bank weitergeleitet."
+#~ "Im nächsten Schritt werden Sie aufgefordert, Ihre Kreditkartendaten einzugeben. Wenn Ihre Kreditkarte für 3D-Secure "
+#~ "(Verified by Visa bzw. MasterCard SecureCode) freigeschaltet ist, werden Sie während des Bezahlprozesses zur "
+#~ "Sicherheitsabfrage Ihrer Bank weitergeleitet."
 
 #~ msgid "Enable credit card"
 #~ msgstr "Kreditkarte aktivieren"
@@ -371,11 +377,12 @@ msgstr "http://bluecode.com"
 #~ msgstr "eps - Onlineüberweisung (AT)"
 
 #~ msgid ""
-#~ "With eps online transfer you pay simply, fast and secure by online banking of your bank. Your will be redirected to the online banking at your bank "
-#~ "where you authorize the credit transfer with PIN and TAN."
+#~ "With eps online transfer you pay simply, fast and secure by online banking of your bank. Your will be redirected to the "
+#~ "online banking at your bank where you authorize the credit transfer with PIN and TAN."
 #~ msgstr ""
-#~ "Mit eps Online-Überweisung zahlen Sie einfach, schnell und sicher im Online-Banking Ihrer Bank. Im nächsten Schritt werden Sie direkt zum Online-"
-#~ "Banking Ihrer Bank weitergeleitet, wo Sie die Zahlung durch Eingabe von PIN und TAN freigeben."
+#~ "Mit eps Online-Überweisung zahlen Sie einfach, schnell und sicher im Online-Banking Ihrer Bank. Im nächsten Schritt "
+#~ "werden Sie direkt zum Online-Banking Ihrer Bank weitergeleitet, wo Sie die Zahlung durch Eingabe von PIN und TAN "
+#~ "freigeben."
 
 #~ msgid "Enable eps - online bank transfer (AT)"
 #~ msgstr "eps Onlineüberweisung aktivieren"
@@ -387,11 +394,11 @@ msgstr "http://bluecode.com"
 #~ msgstr "giropay - Onlineüberweisung"
 
 #~ msgid ""
-#~ "With giropay you pay simply, fast and secure by the online banking of your participating bank. You will be redirected to the online banking of your "
-#~ "bank where you authorize the credit transfer."
+#~ "With giropay you pay simply, fast and secure by the online banking of your participating bank. You will be redirected to "
+#~ "the online banking of your bank where you authorize the credit transfer."
 #~ msgstr ""
-#~ "Mit giropay zahlen Sie einfach, schnell und sicher im Online-Banking Ihrer teilnehmenden Bank oder Sparkasse. Sie werden direkt zum Online-Banking "
-#~ "Ihrer Bank weitergeleitet, wo Sie die Überweisung durch Eingabe von PIN und TAN freigeben."
+#~ "Mit giropay zahlen Sie einfach, schnell und sicher im Online-Banking Ihrer teilnehmenden Bank oder Sparkasse. Sie werden "
+#~ "direkt zum Online-Banking Ihrer Bank weitergeleitet, wo Sie die Überweisung durch Eingabe von PIN und TAN freigeben."
 
 #~ msgid "Enable giropay - online bank transfer"
 #~ msgstr "giropay Onlineüberweisung aktivieren"
@@ -403,11 +410,12 @@ msgstr "http://bluecode.com"
 #~ msgstr "iDEAL - Onlineüberweisung (NL)"
 
 #~ msgid ""
-#~ "With iDEAL you pay simply, fast and secure by online banking of your bank. You will be redirected to the online banking of your bank where you "
-#~ "authorize the credit transfer with PIN and TAN."
+#~ "With iDEAL you pay simply, fast and secure by online banking of your bank. You will be redirected to the online banking "
+#~ "of your bank where you authorize the credit transfer with PIN and TAN."
 #~ msgstr ""
-#~ "iDEAL ist das Online Überweisungssystem der niederländischen Banken, das auf dem etablierten Onlinebanking-Verfahren der Kreditinstitute basiert. Im "
-#~ "folgenden müssen Sie Ihre Bank auswählen und können anschließend die Zahlung in Ihrem Online-Banking durchführen."
+#~ "iDEAL ist das Online Überweisungssystem der niederländischen Banken, das auf dem etablierten Onlinebanking-Verfahren der "
+#~ "Kreditinstitute basiert. Im folgenden müssen Sie Ihre Bank auswählen und können anschließend die Zahlung in Ihrem Online-"
+#~ "Banking durchführen."
 
 #~ msgid "Enable iDEAL - online bank transfer (NL)"
 #~ msgstr "iDEAL Onlineüberweisung aktivieren"
@@ -419,11 +427,11 @@ msgstr "http://bluecode.com"
 #~ msgstr "Maestro"
 
 #~ msgid ""
-#~ "Maestro is your ATM banking card that you can now use to pay online. It's a debit facility, so you can never spend more with your Maestro card than "
-#~ "you have in your bank account."
+#~ "Maestro is your ATM banking card that you can now use to pay online. It's a debit facility, so you can never spend more "
+#~ "with your Maestro card than you have in your bank account."
 #~ msgstr ""
-#~ "Maestro ist Ihre Bankkarte für den Geldautomaten, mit der Sie jetzt auch online bezahlen können. Es ist eine Debit-Karte, so dass Sie nie mehr "
-#~ "ausgeben können, als Sie auf Ihrem Bankkonto haben."
+#~ "Maestro ist Ihre Bankkarte für den Geldautomaten, mit der Sie jetzt auch online bezahlen können. Es ist eine Debit-Karte, "
+#~ "so dass Sie nie mehr ausgeben können, als Sie auf Ihrem Bankkonto haben."
 
 #~ msgid "Enable Maestro"
 #~ msgstr "Maestro aktivieren"
@@ -435,12 +443,13 @@ msgstr "http://bluecode.com"
 #~ msgstr "paydirekt"
 
 #~ msgid ""
-#~ "The online payment method of the German banks and Sparkassen. You will be redirected to the Paydirekt web site, where you will log into your "
-#~ "personal account and authorize the payment. You require prior registration with Paydirekt. This payment method only works with German banking "
-#~ "accounts."
+#~ "The online payment method of the German banks and Sparkassen. You will be redirected to the Paydirekt web site, where you "
+#~ "will log into your personal account and authorize the payment. You require prior registration with Paydirekt. This "
+#~ "payment method only works with German banking accounts."
 #~ msgstr ""
-#~ "Das Online-Bezahlverfahren Ihrer Banken und Sparkassen. Sie werden auf die Webseiten von Paydirekt weiter geleitet, wo Sie sich mit Ihren "
-#~ "persönlichen Zugangsdaten anmelden und dann die Zahlung bestätigen. Sie benötigen vorab eine Registrierung bei Paydirekt."
+#~ "Das Online-Bezahlverfahren Ihrer Banken und Sparkassen. Sie werden auf die Webseiten von Paydirekt weiter geleitet, wo "
+#~ "Sie sich mit Ihren persönlichen Zugangsdaten anmelden und dann die Zahlung bestätigen. Sie benötigen vorab eine "
+#~ "Registrierung bei Paydirekt."
 
 #~ msgid "Enable Paydirekt"
 #~ msgstr "paydirekt aktivieren"
@@ -452,11 +461,13 @@ msgstr "http://bluecode.com"
 #~ msgstr "SOFORT-Überweisung"
 
 #~ msgid ""
-#~ "Direct payment via online banking. Make payments the easy way with your own online banking details – fast and direct. You will be redirected to the "
-#~ "web site of SOFORT, where you will enter your banking data and initiate the electronic wire transfer."
+#~ "Direct payment via online banking. Make payments the easy way with your own online banking details – fast and direct. You "
+#~ "will be redirected to the web site of SOFORT, where you will enter your banking data and initiate the electronic wire "
+#~ "transfer."
 #~ msgstr ""
-#~ "Mit SOFORT Überweisung geht das online Bezahlen einfach wie nie! Sie nutzen dabei ganz bequem Ihre vertrauten Online-Banking Daten und sind so auf "
-#~ "der sicheren Seite. Sie werden auf die SOFORT-Webseiten weiter geleitet, geben dort Ihre Bankdaten ein und lösen die Online-Überweisung aus."
+#~ "Mit SOFORT Überweisung geht das online Bezahlen einfach wie nie! Sie nutzen dabei ganz bequem Ihre vertrauten Online-"
+#~ "Banking Daten und sind so auf der sicheren Seite. Sie werden auf die SOFORT-Webseiten weiter geleitet, geben dort Ihre "
+#~ "Bankdaten ein und lösen die Online-Überweisung aus."
 
 #~ msgid "Enable SOFORT Überweisung"
 #~ msgstr "SOFORT-Überweisung aktivieren"
