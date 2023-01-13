@@ -36,5 +36,11 @@ Please remember that you need an acquiring contract with bluecode before you can
 
 == Changelog ==
 
+= 1.1.2 =
+* Text fix in language files.
+
+= 1.1.1 =
+* Added languages files for german.
+
 = 1.0.0 =
 - Initial release

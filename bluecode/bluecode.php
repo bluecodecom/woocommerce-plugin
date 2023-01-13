@@ -9,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name: bluecode
  * Description: Plugin to integrate the Bluecode payment method into WooCommerce.
- * Version:     1.1.0
+ * Version:     1.1.2
  * Author:      Bluecode International AG
  * Author URI:  http://bluecode.com
  * Text Domain: bluecode
