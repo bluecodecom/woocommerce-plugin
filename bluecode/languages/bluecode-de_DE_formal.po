@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bluecode\n"
-"POT-Creation-Date: 2023-01-06 00:26-0300\n"
-"PO-Revision-Date: 2023-01-06 00:27-0300\n"
+"POT-Creation-Date: 2023-01-10 23:39-0300\n"
+"PO-Revision-Date: 2023-01-10 23:40-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE@formal\n"
@@ -38,8 +38,8 @@ msgstr "<a href=\"https://bluecode.com/de-at/b2b/haendler/\" target=\"_blank\">L
 
 #: payments/Bluecode.php:107
 msgid ""
-"The mobile payment solution that rewards you for your loyalty. Download the free Bluecode app now and benefit from exclusive "
-"<a href=\"https://bluecode.com/en/b2c/rewards/\">benefits</a>."
+"The mobile payment solution that rewards you for your loyalty. Download the free Bluecode app now and unlock exclusive <a "
+"href=\"https://bluecode.com/en/b2c/rewards/\">rewards</a>."
 msgstr ""
 "Die mobile Bezahllösung, die dich für deine Treue belohnt. Lade jetzt die kostenlose Bluecode App herunter und profitiere "
 "von exklusiven <a href=\"https://bluecode.com/de-at/b2c/rewards/\">Vorteilen</a>."
